@@ -1,0 +1,74 @@
+*{
+	color: lime;
+	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Press Start 2P', cursive;
+}
+body {
+	background-color: black;
+}
+.ticContainer {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	margin:200px auto;
+	width: 400px;
+	height: 400px;
+	top: 1600px;
+}
+
+.r1c1{
+	border-right: 5px solid lime;
+	border-bottom: 5px solid lime;
+}
+
+.r1c2{
+	border-right: 5px solid lime;
+	border-bottom: 5px solid lime;
+	border-left: 5px solid lime;
+
+}
+
+.r1c3{
+	border-left: 5px solid lime;
+	border-bottom: 5px solid lime;
+
+}
+
+.r2c1{
+	border-top: 5px solid lime;
+	border-right: 5px solid lime;
+	border-bottom: 5px solid lime;
+}
+
+.r2c2{
+	border: 5px solid lime;
+}
+
+.r2c3{
+	border-top: 5px solid lime;
+	border-left: 5px solid lime;
+	border-bottom: 5px solid lime;
+}
+
+.r3c1{
+	border-top: 5px solid lime;
+	border-right: 5px solid lime;
+}
+
+.r3c2{
+	border-top: 5px solid lime;
+	border-right: 5px solid lime;
+	border-left: 5px solid lime;
+}
+
+.r3c3{
+	border-top: 5px solid lime;
+	border-left: 5px solid lime;
+}
+
+.ticContainer div {
+	text-align: center;
+	font-weight: Bold;
+	font-size: 60px;
+  padding: 20px;
+}
