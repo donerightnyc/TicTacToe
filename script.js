@@ -29,21 +29,21 @@ $(document).ready(function() {
 	let uWin = ((caseOne === true) || (caseTwo === true) || (caseThree === true) || (caseFour === true) || (caseFive === true) || (caseSix === true) || (caseSeven === true) || (caseEight === true));
 
 
-			if (currPlayer === 'X') {
+		if (currPlayer === 'X') {
 
-				if (uWin === true) {
-					alert(`Player "${currPlayer}" won!`);
-					location.reload();
-				}
-				currPlayer = 'O'
-
-			} else if (currPlayer === 'O') {
-
-				 if (uWin === true) {
- 					alert(`Player "${currPlayer}" won!`);
-					location.reload();
- 				}
-				currPlayer = 'X';
+			if (uWin === true) {
+				alert(`Player "${currPlayer}" won!`);
+				location.reload();
 			}
+			currPlayer = 'O';
+
+		} else if (currPlayer === 'O') {
+
+			 if (uWin === true) {
+					alert(`Player "${currPlayer}" won!`);
+				location.reload();
+				}
+			currPlayer = 'X';
 		}
+	}
 })
